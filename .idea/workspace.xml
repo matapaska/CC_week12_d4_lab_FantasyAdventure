@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a20eb25-06c1-4d49-acae-a29b2e012ce1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/SpellType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/SpellType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/WeaponType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/WeaponType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighters/Barbarian.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +72,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579175784229">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579177016969">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579175784229" />
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579177016969" />
     <state x="230" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579173716856">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
@@ -82,5 +84,9 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="494" y="307" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.793@0.23.1440.793" timestamp="1579173725035" />
+    <state x="482" y="33" key="refactoring.ChangeSignatureDialog" timestamp="1579176429817">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="482" y="33" key="refactoring.ChangeSignatureDialog/0.23.1440.793@0.23.1440.793" timestamp="1579176429817" />
   </component>
 </project>
