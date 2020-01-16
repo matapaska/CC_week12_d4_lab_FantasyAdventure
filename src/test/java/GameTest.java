@@ -37,7 +37,16 @@ public class GameTest {
     }
     @Test
     public void canComparePowerPointsOfPlayerAndEnemy(){
-        assertEquals(true, game.comparePowerPoints(room1, barbarian));
+        assertEquals(true, game.fight(room1, barbarian));
+    }
+
+    @Test
+    public void shouldCalculateFightOutcomeHealthPoints() {
+        game.fightOutcome(room1, warlock);
+
+        assertEquals(100, warlock.getHealthPoints());
+        assertEquals(50, warlock.getVictoryPoints());
+
     }
 
 

@@ -24,5 +24,9 @@ public abstract class Player {
         return victoryPoints;
     }
 
+    public int addVictoryPoints(int value) {
+        return victoryPoints += value;
+    }
+
     public abstract int getPowerPoints();
 }

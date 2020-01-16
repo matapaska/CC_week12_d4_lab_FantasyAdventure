@@ -18,4 +18,6 @@ public enum TreasureType {
     public int getVictoryPoints() {
         return victoryPoints;
     }
+
+
 }
