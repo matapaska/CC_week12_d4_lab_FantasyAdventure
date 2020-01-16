@@ -34,4 +34,5 @@ public abstract class Fighter extends Player {
     public void setArmour(ArmourType armour) {
         this.armour = armour;
     }
+
 }
