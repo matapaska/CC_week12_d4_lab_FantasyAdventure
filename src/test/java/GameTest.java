@@ -34,6 +34,11 @@ public class GameTest {
     public void hasInitialParameters(){
         assertEquals(barbarian, game.getPlayer());
         assertEquals(room1, game.getRoom());
-
     }
+    @Test
+    public void canComparePowerPointsOfPlayerAndEnemy(){
+        assertEquals(true, game.comparePowerPoints(room1, barbarian));
+    }
+
+
 }

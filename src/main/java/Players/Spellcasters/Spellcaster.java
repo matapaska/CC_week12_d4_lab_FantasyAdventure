@@ -30,4 +30,8 @@ public abstract class Spellcaster extends Player {
     public void setCreature(CreatureType creature) {
         this.creature = creature;
     }
+
+    public int getPowerPoints() {
+        return spell.getPowerPoints() + creature.getPowerPoints();
+    }
 }

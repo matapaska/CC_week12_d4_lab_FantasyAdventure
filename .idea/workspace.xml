@@ -3,13 +3,24 @@
   <component name="ChangeListManager">
     <list default="true" id="8a20eb25-06c1-4d49-acae-a29b2e012ce1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/ItemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/ItemType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighters/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Healers/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Healers/Cleric.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Healers/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Healers/Healer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Spellcasters/Spellcaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Spellcasters/Spellcaster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/GameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Rooms/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Rooms/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RoomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/RoomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Players/FightersTest/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Players/FightersTest/BarbarianTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Players/SpellCastersTest/WarlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Players/SpellCastersTest/WarlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Components/Tools/ItemType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Components/Tools/ItemType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Players/Fighters/Fighter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Fighters/Fighter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Players/Healers/Cleric.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Healers/Cleric.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Players/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Players/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Players/FightersTest/BarbarianTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Players/FightersTest/BarbarianTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Players/SpellCastersTest/WarlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Players/SpellCastersTest/WarlockTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +64,7 @@
       <recent name="Components" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Java_Fantasy_Adventure">
+  <component name="RunManager" selected="JUnit.GameTest.canComparePowerPointsOfPlayerAndEnemy">
     <configuration name="All in Java_Fantasy_Adventure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Fantasy_Adventure" />
       <option name="PACKAGE_NAME" value="" />
@@ -62,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BarbarianTest.hasInheritedParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BarbarianTest.canGetPowerpoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Fantasy_Adventure" />
       <extension name="coverage">
         <pattern>
@@ -72,7 +83,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Players.FightersTest" />
       <option name="MAIN_CLASS_NAME" value="Players.FightersTest.BarbarianTest" />
-      <option name="METHOD_NAME" value="hasInheritedParameters" />
+      <option name="METHOD_NAME" value="canGetPowerpoints" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,7 +105,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WarlockTest.hasInheritedParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GameTest.canComparePowerPointsOfPlayerAndEnemy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Fantasy_Adventure" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GameTest" />
+      <option name="METHOD_NAME" value="canComparePowerPointsOfPlayerAndEnemy" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WarlockTest.canGetPowerPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Java_Fantasy_Adventure" />
       <extension name="coverage">
         <pattern>
@@ -104,7 +125,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="Players.SpellCastersTest" />
       <option name="MAIN_CLASS_NAME" value="Players.SpellCastersTest.WarlockTest" />
-      <option name="METHOD_NAME" value="hasInheritedParameters" />
+      <option name="METHOD_NAME" value="canGetPowerPoints" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,10 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTest.canComparePowerPointsOfPlayerAndEnemy" />
+        <item itemvalue="JUnit.WarlockTest.canGetPowerPoints" />
+        <item itemvalue="JUnit.BarbarianTest.canGetPowerpoints" />
         <item itemvalue="JUnit.All in Java_Fantasy_Adventure" />
         <item itemvalue="JUnit.ClericTest.hasInheritedParameters" />
-        <item itemvalue="JUnit.WarlockTest.hasInheritedParameters" />
-        <item itemvalue="JUnit.BarbarianTest.hasInheritedParameters" />
       </list>
     </recent_temporary>
   </component>
@@ -157,25 +179,29 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="494" y="307" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.793@0.23.1440.793" timestamp="1579173725035" />
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579185291377">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom" timestamp="1579187506436">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579185291377" />
-    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579185291376">
+    <state width="1398" height="203" key="GridCell.Tab.0.bottom/0.23.1440.793@0.23.1440.793" timestamp="1579187506436" />
+    <state width="1398" height="203" key="GridCell.Tab.0.center" timestamp="1579187506435">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579185291376" />
-    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579185291376">
+    <state width="1398" height="203" key="GridCell.Tab.0.center/0.23.1440.793@0.23.1440.793" timestamp="1579187506435" />
+    <state width="1398" height="203" key="GridCell.Tab.0.left" timestamp="1579187506435">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579185291376" />
-    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579185291377">
+    <state width="1398" height="203" key="GridCell.Tab.0.left/0.23.1440.793@0.23.1440.793" timestamp="1579187506435" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right" timestamp="1579187506436">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579185291377" />
+    <state width="1398" height="203" key="GridCell.Tab.0.right/0.23.1440.793@0.23.1440.793" timestamp="1579187506436" />
     <state x="482" y="33" key="refactoring.ChangeSignatureDialog" timestamp="1579180437319">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="482" y="33" key="refactoring.ChangeSignatureDialog/0.23.1440.793@0.23.1440.793" timestamp="1579180437319" />
+    <state x="385" y="140" width="670" height="676" key="search.everywhere.popup" timestamp="1579186460894">
+      <screen x="0" y="23" width="1440" height="793" />
+    </state>
+    <state x="385" y="140" width="670" height="676" key="search.everywhere.popup/0.23.1440.793@0.23.1440.793" timestamp="1579186460894" />
   </component>
 </project>

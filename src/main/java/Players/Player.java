@@ -23,4 +23,6 @@ public abstract class Player {
     public int getVictoryPoints() {
         return victoryPoints;
     }
+
+    public abstract int getPowerPoints();
 }

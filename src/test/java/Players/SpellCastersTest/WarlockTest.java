@@ -26,4 +26,9 @@ public class WarlockTest {
         assertEquals(SpellType.BUBBLESORT, warlock.getSpell());
         assertEquals(CreatureType.EUGENE, warlock.getCreature());
     }
+
+    @Test
+    public void canGetPowerPoints() {
+        assertEquals(100, warlock.getPowerPoints());
+    }
 }

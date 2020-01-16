@@ -30,4 +30,9 @@ public class BarbarianTest {
 
 
     }
+
+    @Test
+    public void canGetPowerpoints() {
+        assertEquals(30, barbarian.getPowerPoints());
+    }
 }

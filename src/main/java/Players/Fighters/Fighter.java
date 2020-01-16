@@ -35,4 +35,8 @@ public abstract class Fighter extends Player {
         this.armour = armour;
     }
 
+    public int getPowerPoints(){
+        return weapon.getPowerPoints();
+    }
+
 }

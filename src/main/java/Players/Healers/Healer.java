@@ -19,4 +19,9 @@ public abstract class Healer extends Player {
     public void setItem(ItemType item) {
         this.item = item;
     }
+
+    public int getPowerPoints(){
+        return item.getPowerPoints();
+    }
+
 }

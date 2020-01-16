@@ -1,3 +1,4 @@
+import Components.EnemyType;
 import Players.Player;
 import Rooms.Room;
 
@@ -16,5 +17,13 @@ public class Game {
 
     public Room getRoom() {
         return room;
+    }
+
+    public boolean comparePowerPoints(Room room, Player player) {
+        if (player.getPowerPoints() < room.getEnemy().getPowerPoints()){
+            return true;
+        } else{
+            return false;
+        }
     }
 }
