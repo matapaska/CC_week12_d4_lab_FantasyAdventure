@@ -3,13 +3,14 @@ package Components.Tools;
 public enum SpellType {
 
     SANDYSTORM(50, 100),
-    JOHNSNOWFALL(15, 30),
-    FIREBALL(20, 40),
-    ARCANESHOCK(10, 20),
+    SKYFALL(15, 30),
+    JOHNFERNO(20, 40),
+    COLINITQUITS(10, 20),
     HARRISONHAND(30, 60),
     EUGENEABANDONUS(40, 80),
     NOTDEFINED(25, 50),
-    POLYMORPH(16, 32);
+    POLYMORPH(16, 32),
+    BUBBLESORT(35, 70);
 
 
     private final int damage;

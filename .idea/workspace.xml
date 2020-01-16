@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a20eb25-06c1-4d49-acae-a29b2e012ce1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/EnemyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/EnemyType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/ArmourType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/ArmourType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/CreatureType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/CreatureType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/ItemType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/ItemType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/SpellType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/SpellType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Components/Tools/WeaponType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/Tools/WeaponType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Components/TreasureType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Components/TreasureType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighters/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighters/Barbarian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighters/Dwarf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Players/Fighters/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Players/Fighters/Knight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Players/FightersTest/BarbarianTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Players/FightersTest/BarbarianTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +40,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1WTUyBtAHUeC0dxk2lZTp5zftXc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -45,6 +57,29 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Components" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BarbarianTest.hasInheritedParameters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Java_Fantasy_Adventure" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Players.FightersTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Players.FightersTest" />
+      <option name="MAIN_CLASS_NAME" value="Players.FightersTest.BarbarianTest" />
+      <option name="METHOD_NAME" value="hasInheritedParameters" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BarbarianTest.hasInheritedParameters" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -72,10 +107,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579177016969">
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1579182414042">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579177016969" />
+    <state x="533" y="142" key="#com.intellij.ide.util.MemberChooser/0.23.1440.793@0.23.1440.793" timestamp="1579182414042" />
     <state x="230" y="342" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579173716856">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
@@ -84,9 +119,9 @@
       <screen x="0" y="23" width="1440" height="793" />
     </state>
     <state x="494" y="307" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.23.1440.793@0.23.1440.793" timestamp="1579173725035" />
-    <state x="482" y="33" key="refactoring.ChangeSignatureDialog" timestamp="1579176429817">
+    <state x="482" y="33" key="refactoring.ChangeSignatureDialog" timestamp="1579180437319">
       <screen x="0" y="23" width="1440" height="793" />
     </state>
-    <state x="482" y="33" key="refactoring.ChangeSignatureDialog/0.23.1440.793@0.23.1440.793" timestamp="1579176429817" />
+    <state x="482" y="33" key="refactoring.ChangeSignatureDialog/0.23.1440.793@0.23.1440.793" timestamp="1579180437319" />
   </component>
 </project>

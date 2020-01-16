@@ -9,11 +9,13 @@ public enum WeaponType {
     MACE(12, 24),
     FISH(3, 6),
     STICK(4, 8),
-    BAGUETTE(1, 2);
+    BAGUETTE(1, 2),
+    PINGPONGRACKET(5, 10);
 
 
     private final int damage;
     private final int powerPoints;
+
 
     WeaponType(int damage, int powerPoints) {
         this.damage = damage;

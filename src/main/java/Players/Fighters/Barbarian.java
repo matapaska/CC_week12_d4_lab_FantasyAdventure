@@ -1,11 +1,10 @@
 package Players.Fighters;
 
-import Players.Player;
+import Components.Tools.WeaponType;
 
-public class Barbarian extends Player {
+public class Barbarian extends Fighter {
 
-    public Barbarian(String name, int healthPoints, int victoryPoints) {
-        super(name, healthPoints, victoryPoints);
+    public Barbarian(String name, int healthPoints, int victoryPoints, WeaponType weapon) {
+        super(name, healthPoints, victoryPoints, weapon);
     }
-
 }
