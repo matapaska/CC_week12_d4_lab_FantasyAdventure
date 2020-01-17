@@ -21,7 +21,7 @@ public class GameTest {
     Game game;
 
     @Before
-    public void before(){
+    public void before() {
         barbarian = new Barbarian("Sophia", 100, 0, WeaponType.BAGUETTE, ArmourType.CUIRASS);
         warlock = new Warlock("Daniel", 100, 0, SpellType.EUGENEABANDONUS, CreatureType.DEMON);
         cleric = new Cleric("Hitch", 100, 0, ItemType.BIGMAC);
@@ -31,23 +31,33 @@ public class GameTest {
     }
 
     @Test
-    public void hasInitialParameters(){
+    public void hasInitialParameters() {
         assertEquals(barbarian, game.getPlayer());
         assertEquals(room1, game.getRoom());
     }
+
     @Test
-    public void canComparePowerPointsOfPlayerAndEnemy(){
+    public void canComparePowerPointsOfPlayerAndEnemyTrue() {
         assertEquals(true, game.fight(room1, barbarian));
     }
 
     @Test
-    public void shouldCalculateFightOutcomeHealthPoints() {
-        game.fightOutcome(room1, warlock);
-
-        assertEquals(100, warlock.getHealthPoints());
-        assertEquals(50, warlock.getVictoryPoints());
-
+    public void canComparePowerPointsOfPlayerAndEnemyFalse() {
+        assertEquals(false, game.fight(room1, warlock));
     }
 
+    @Test
+    public void shouldCalculateFightOutcomeHealthPoints() {
+        game.fightOutcomeHealthPoints(room1, barbarian);
+        assertEquals(90, barbarian.getHealthPoints());
+//        assertEquals(50, warlock.getVictoryPoints());
+    }
 
+    @Test
+    public void shouldCalculateFightOutcomeVictoryPoints() {
+        game.fightOutcomeVictoryPoints(room1, warlock);
+        assertEquals(40, warlock.getVictoryPoints());
+
+
+    }
 }

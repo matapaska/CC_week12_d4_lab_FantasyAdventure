@@ -24,8 +24,20 @@ public abstract class Player {
         return victoryPoints;
     }
 
-    public int addVictoryPoints(int value) {
+    public void setHealthPoints(int healthPoints) {
+        this.healthPoints = healthPoints;
+    }
+
+    public void setVictoryPoints(int victoryPoints) {
+        this.victoryPoints = victoryPoints;
+    }
+
+    public int calculateVictoryPoints(int value) {
         return victoryPoints += value;
+    }
+
+    public int calculateHealthPoints(int value){
+        return healthPoints += value;
     }
 
     public abstract int getPowerPoints();
